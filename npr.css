@@ -1,0 +1,440 @@
+#header, #container, body {
+	text-align: center;
+	font-family: georgia;
+	min-width: 1160px;
+}
+
+#header-wrap {
+	background-image: url(img/yosem-valley.jpg);
+	height: 291px;
+	position: relative;
+}
+
+#header {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: rgba(239,234,221,0.9); 
+	padding: 10px 0;
+}
+
+#header-content {
+	width: 66.6666%;
+    
+	min-width: 960;
+	margin-left: 16.6666%;
+    padding: 0;
+	margin: 0 auto;
+}
+
+#header-logo, #npReservations, #reservations, #bookOrCall {
+	display: inline-block;
+	float: left;
+}
+
+#header-logo {
+	margin: 0 50px 0 0;
+}
+
+#header img {
+	float: left;
+}
+
+#bookOrCall {
+	font-style: italic;
+	width: 325px;
+	vertical-align: bottom;
+}
+
+#bookOrCall img {
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+#callInfo {
+	float: left;
+	display: inline-block;
+}
+
+#callUs {
+	font-size: 9px;
+}
+
+#phoneNumber {
+	font-size: 24px;
+}
+
+#account {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+#account a {
+	text-decoration: none;
+	color: black;
+}
+
+#account a:hover {
+	color: blue;
+}
+
+#search {
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+}
+
+#caption-wrap {
+	width: 66.6666%;
+	z-index: 10;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-top-left-radius: 10px;
+	padding: 0 0 0 10px;
+	min-width: 960px;
+}
+
+#caption {
+	float: left;
+	display: inline-block;
+	text-align: left;
+	max-width: 662px;
+}
+
+#caption-wrap h2 {
+	font-family: georgia;
+	margin-top: 18px;
+}
+
+#caption-wrap p {
+	font-family: PT Sans;
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+#caption-wrap a {
+	color: rgb(254,199,62);
+}
+
+#weather {
+	float: right;
+	display: inline-block;
+	width: 120px;
+	padding-top: 30px;
+	font-size: 20px;
+	font-family: 'PT Sans';
+	margin-right: 18px;
+}
+
+#weather a {
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+}
+
+#thumbs {
+	float: right;
+	display: inline-block;
+	width: 15.1%;
+}
+
+#thumbs img {
+	float: left;
+}
+
+#container {
+	background-image: url(img/topography.jpg);
+	/* height: 200%; */
+	/* min-height: 1200px; */
+}
+
+#navItems{
+	width: 66.6666%;
+	/* margin-left: 16.6666%; */
+	margin: 0 auto 20px auto;
+	/* margin-bottom: 15px; */
+	/*background-color: rgba(51,89,42,0.6);*/
+	background: url(img/nav-background.jpg);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	min-width: 960px;
+}
+
+#navLinks{
+	width: 80%;
+	float: left;
+	display: inline-block;
+}
+
+nav ul{
+	list-style: none;
+	/* width: 100%; */
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	width: 13%;	
+	padding: 5px;
+}
+
+nav .selected {
+	background-color: rgba(69,97,37,0.6);
+}
+
+nav a{
+	color: white;
+	font-family: 'PT Sans';
+	font-size: 11px;
+}
+
+nav li:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.divider {
+	vertical-align: top;
+}
+
+.clearFix {
+	clear: both;
+}
+
+#concierge-wrap {
+	display: inline-block;
+	float: right;
+	width: 15.1%;
+	margin-left: 0%;
+	text-align: left;
+	padding-top: 5px;
+}
+
+#social {
+	display: inline-block;
+/* 	float: right; */
+	/* width: 15.6278%; */
+	margin-right: 1.0388%;
+/* 	text-align: right; */
+	position: absolute;
+	left: -50px;
+}
+
+#social-icons {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 7px 0 7px;
+}
+
+#social-icons img {
+	margin-bottom: 10px;
+}
+
+#social-icons,
+#left-col,
+#reserve,
+#activities {
+	border-radius: 10px;
+	background-color: rgb(251,247,238);
+}
+
+#columns {
+	width: 66.6666%;
+	min-width: 960px;
+	margin: 0 auto 40px auto;
+}
+
+#left-col {
+	display: inline-block;
+	float: left;
+	width: 66.6666%;
+	/* margin-left: 15.6278%; */
+	margin-right: 2.0388%;
+	min-width: 640px;
+	position: relative;
+}
+
+#gallery-text {
+	text-align: left;
+	margin-left: 20px;
+}
+
+#gallery-title, .box-title {
+	font-family: 'Georgia';
+	font-style: italic; 
+	font-weight: bold;
+	color: rgb(118,32,30);
+	font-size: 18px;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+.box-title {
+	font-size: 20px;
+	color: rgb(73,40,31);
+	margin: 0;
+	text-shadow: 1px 1px white;
+}
+
+#subtext {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'PT Sans';
+}
+
+#gallery {
+	/* padding: 3.125%; */
+	padding-bottom: 20px;
+}
+
+#gallery img.noRMargin {
+	margin-right: 0;
+}
+
+#gallery img.noBMargin {
+	margin-bottom: 0;
+}
+
+#gallery img {
+	width: 30.4687%;
+	margin-right: .9375%;
+	margin-bottom: .9375%;
+}
+
+#right-col {
+	display: inline-block;
+	float: left;
+	width: 31.25%;
+	min-width: 300px;
+}
+
+#reserve, #activities {
+	margin-bottom: 15px;
+	padding: 20px;
+	text-align: left;
+}
+
+#reserve img, #activities img {
+	padding-bottom: 6px;
+}
+
+#reserve button {
+	text-align: left;
+	padding-left: 10px;
+	font-family: 'PT Sans';
+	border-radius: 10px;
+}
+
+.btn-group {
+	display: block;
+}
+
+.btn {
+	background-color: white;
+	-moz-box-shadow:    0px 0px 5px 0px #ccc;
+  	-webkit-box-shadow: 0px 0px 5px 0px #ccc;
+  	box-shadow:         0px 0px 5px 0px #ccc;
+}
+
+.dropdown-menu {
+	width: 100%;
+	top: 52px;
+	font-family: 'PT Sans';
+}
+
+#ahwahnee {
+    font-size: 14px;
+	
+}
+
+.caret {
+	float: right;
+	margin-right: 10px;
+}
+
+#reserve input {
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 40px;
+	font-family: 'PT Sans';
+	font-size: 11px;
+	padding-left: 10px;
+	display: inline-block;
+	float: left;
+	border: none;
+	-moz-box-shadow:    0px 0px 5px 0px #ccc;
+  	-webkit-box-shadow: 0px 0px 5px 0px #ccc;
+  	box-shadow:         0px 0px 5px 0px #ccc;
+}
+
+#date, #rooms {
+	width: 130px;
+	margin-right: 20px;
+}
+
+#date-div {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+#date-div img {
+	position: absolute;
+	right: 25;
+	top: 16;
+}
+
+#nights {
+	width: 110px;
+}
+
+#book, #reserve button {
+	margin-top: 10px;
+}
+
+.activity-title {
+	font-family: 'Georgia';
+	color: rgb(118,32,30);
+	font-style: italic;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.activity-text, .read-more {
+	font-family: 'PT Sans';
+	font-size: 11px;
+}
+
+.read-more {
+	color: rgb(118,32,30);
+}
+
+#see-activities {
+	float: right;
+}
+
+#footer {
+	padding-top: 130px;
+	background: url(img/footer.jpg) no-repeat center;
+	height: 217px;
+	color: white;
+	font-family: 'PT Sans';
+}
+
+#footer a {
+	color: white;
+}
+
+#copyright {
+	font-size: 12px;
+}
